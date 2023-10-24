@@ -15,7 +15,7 @@ export default function Todo({todo, onUpdate, onDelete}) {
       onUpdate({... todo, status:status}) 
   }
   const handleDelete = () =>{
-      console.log(todo.id)
+      console.log(todo)
       onDelete(todo)
   }
 

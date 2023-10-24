@@ -11,9 +11,10 @@ export default function Filter({todo}) {
     const handleAct= ()=> setFilter('Active')
   const hadnleDark = () => changeDark()
   return (
-    <header>
+    <header className={styles.entire}>
+      
     <ul className={styles.header}>
-    <button className={styles.button} onClick={hadnleDark}>{darkmode ? <BsFillMoonFill/> :<BsFillSunFill/>}</button>
+        <button className={styles.button} onClick={hadnleDark}>{darkmode ? <BsFillMoonFill/> :<BsFillSunFill/>}</button>
         <li><button className={`${styles.filters} ${filter==='ALL' && styles.selected}`} onClick={handleAll}>ALL</button></li>
         <li><button className={`${styles.filters} ${filter==='Complete' && styles.selected}`} onClick={handleCom}>Complete</button></li>
         <li><button className={`${styles.filters} ${filter==='Active' && styles.selected}`} onClick={handleAct}>Active</button></li>
