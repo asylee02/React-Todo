@@ -1,0 +1,32 @@
+.container{
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-bg);
+    margin-top:-1.2rem;
+    border-radius: 1rem;
+    min-height: 0;
+}
+
+.list{
+    flex: 1 1 auto;
+    overflow-y: auto;
+    color: white;
+}
+
+.container.darkmode{
+    background-color: #1a1c35;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    margin-top:-1.2rem;
+    border-radius: 1rem;
+    min-height: 0;
+}
+
+.list.darkmode{
+    flex: 1 1 auto;
+    overflow-y: auto;
+    color:white;
+    background-color: #1a1c35;
+}
