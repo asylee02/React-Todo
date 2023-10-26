@@ -2,7 +2,7 @@
 ## Todo 화면
 
 
-![GIFMaker_me](https://github.com/asylee02/React-Todo/assets/87488288/b2da7124-e4d1-4d1c-af73-e57438789178)
+![GIFMaker_me](https://github.com/asylee02/React-Todo/assets/87488288/232392fe-a94d-42dd-8480-0a46898c573f)
 
 
 ## 사용 기능
